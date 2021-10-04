@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <title>CSE110 Lecture Mitutes</title>
-        <link rel="Slack", href="https://join.slack.com/t/cse110-fall21/shared_invite/zt-vd31x3na-K9~MVS_l06eJcGXHc2aj9A">
+        <link rel="Slack" href="https://join.slack.com/t/cse110-fall21/shared_invite/zt-vd31x3na-K9~MVS_l06eJcGXHc2aj9A">
         <meta name="description" content="CSE110 Lecture Minutes">
         <meta name="keywords" content="software development, lecture, information">
         <meta name="author" content="Sizhe Fan">
@@ -16,15 +16,13 @@
     </head>
     <body>
         <header>
-            <main>
-                <div class="myDiv">
-                    <h1>CSE110 Software Engineering<br>Fall 2021</h1>
-                </div>
-                <p><b>Professor: </b><i>Thomas A. Powell</i></p>
-                <img src="powell.jpg" alt="Professor Powell" width="100" height="130>"<br>
-                <p><strong>Time: </strong><em>TuTh 5:00 - 6:20pm</em></p>
-                <p><strong>Location: </strong><em>WLH 2001</em></p>
-            </main>
+            <div class="myDiv">
+                <h1>CSE110 Software Engineering<br>Fall 2021</h1>
+            </div>
+            <p><b>Professor: </b><i>Thomas A. Powell</i></p>
+            <img src="powell.jpg" alt="Professor Powell" width="100" height="130"><br>
+            <p><strong>Time: </strong><em>TuTh 5:00 - 6:20pm</em></p>
+            <p><strong>Location: </strong><em>WLH 2001</em></p>
             <nav>
                 <a href="https://cse.ucsd.edu/people/faculty-profiles/thomas-powell"><span style="color:blue">Professor</span></a> |
                 <a href="https://canvas.ucsd.edu/courses/30736"><span style="color:blue">Syllabus</span></a> |
@@ -34,27 +32,29 @@
 
         <hr>
         <section>
-            <h2>Lecture 1: SE Introduction</h2>
-            <h3>Date: Thursday, September 23rd</h3>
+            <main>
+                <h2>Lecture 1: SE Introduction</h2>
+                <h3>Date: Thursday, September 23rd</h3>
+            </main>
             <details>
                 <summary><b>Lecture Contents:</b></summary>
                 <ol>
                     <li>Intro and Overview of the Course</li>         
-                        <ul>
-                            <li>Canvas</li>
-                            <li>Stuffs</li>
-                        </ul>
+                <ul>
+                    <li>Canvas</li>
+                    <li>Stuffs</li>
+                </ul>
                     <li>Logistic and Waitlist</li>
-                        <ul>
-                            <li>Project</li>
-                            <li>Team</li>
-                            <li>Goal</li>
-                        </ul>
+                <ul>
+                    <li>Project</li>
+                    <li>Team</li>
+                    <li>Goal</li>
+                </ul>
                     <li>Class Assumptions and Aims</li>
-                        <ul>
-                            <li>Background</li>
-                            <li>Expectation</li>
-                        </ul>
+                <ul>
+                    <li>Background</li>
+                    <li>Expectation</li>
+                </ul>
                 </ol>
             </details>
             <details>
@@ -69,13 +69,14 @@
                     <source src="audio.mp3" type="audio/mpeg">
                 </audio>
             </details>
-            
         </section>
 
         <hr>
         <section>
-            <h2>Lecture 2: Making a Software Engineer</h2>
-            <h3>Date: Thursday, September 30th</h3>
+            <main>
+                <h2>Lecture 2: Making a Software Engineer</h2>
+                <h3>Date: Thursday, September 30th</h3>
+            </main>
             <details>
                 <summary><b>Lecture Contents:</b></summary>
             </details>
@@ -109,11 +110,11 @@
         <section>
             <h2>Feedback</h2>
             <form>
-                <textarea id="feedback" name="feedback" rows="5" cols="50">Delete me to provide any feedback you want.</textarea><br>
+                <textarea id="feedback" name="feedback" rows="5" cols="50">Feel free to provide any feedback.</textarea><br>
                 <input type="radio" id="student" name="identity" value="I'm a student">
                     <label for="student">I'm a student.</label>
 
-                    <label for="year">Choose your year</label>
+                    <label for="years">Choose your year</label>
                     <select id="years">
                         <option>freshman</option>
                         <option>sophomore</option>
@@ -124,8 +125,8 @@
                     <input type="radio" id="professor" name="identity" value="I'm a professor">
                     <label for="professor">I'm a professor.</label><br><br>
 
-                    <input type="checkbox" id="language" name="language">
-                    <label for="language">I like programming.</label>
+                    <input type="checkbox" id="programming" name="programming">
+                    <label for="programming">I like programming.</label>
 
                     <label for="language">My favoirite programming language is</label>
                     <input list="languages" name="language" id="language">
@@ -136,7 +137,7 @@
                         <option>HTML+CSS+JS</option>
                     </datalist><br>
 
-                    <label for="date">DOB:</label>
+                    <label>My DOB:</label>
                     <input type="date"><br><br>
                 <button type="button" onclick="alert('Thanks for your feedback')">Submit</button>
             </form>
