@@ -1,0 +1,53 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+    color: navy;
+    font-size: 4ch;
+}
+
+h3 {
+    color: rgb(255, 99, 71);
+    font-size: 12pt;
+    text-decoration: underline;
+}
+
+p {
+    color: hsl(8, 13%, 34%);
+    font-size: 4mm;
+}
+
+p.ex1 {display: block;}
+p.ex2 {display: inline;}
+
+header {
+    margin-left: 20px;
+    
+}
+
+footer {
+    margin-left: 20px;
+    
+}
+
+section {
+    margin-left: 20px;
+    font-size: 2ex;
+}
+
+details {
+    color: red;
+    font-size: 1.2em;
+}
+
+textarea {
+    height: 110px;
+    width: 900px;
+    max-width: 1800px;
+    max-height: 150px;
+}
