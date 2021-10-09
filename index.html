@@ -8,9 +8,23 @@
         <meta name="author" content="Sizhe Fan">
         <style>
             .myDiv {
-              border: 5px outset red;
+              border-width: 5px;
+              border-style: outset; 
+              border-color: red;
+              border-radius: 25px;
               background-color: lightblue;    
               text-align: center;
+              position: static;
+            }
+            .flex {
+                display: flex;
+                flex-wrap: nowrap;
+            }
+            .flex > section {
+                background-color: #f1f1f1;
+                margin: 10px;
+                padding: 20px;
+                font-size: 30px;
             }
             details:hover {
                 color: blue;
@@ -18,10 +32,18 @@
             details:active {
                 color: gray
             }
+            header.fix {
+                position: relative;
+            }
+            @media only screen and (max-width: 600px) {
+                body {
+                    background-color: lightgreen;
+                }
+            }
         </style>
     </head>
     <body>
-        <header>
+        <header class="fix">
             <div class="myDiv">
                 <h1>CSE110 Software Engineering<br>Fall 2021</h1>
             </div>
@@ -40,7 +62,7 @@
         <section>
             <h2>Lecture 1: SE Introduction</h2>
             <h3>Date: Thursday, September 23rd</h3>
-            <details>
+            <details class="flex">
                 <summary><b>Lecture Contents:</b></summary>
                 <ul>
                     <li>Intro and Overview of the Course</li>
@@ -64,7 +86,6 @@
                     <li>Background</li>
                     <li>Expectation</li>
                 </ol>
-                
             </details>
             <details>
                 <summary><b>Lecture Video:</b></summary>
