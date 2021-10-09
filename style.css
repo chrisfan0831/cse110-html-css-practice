@@ -1,17 +1,20 @@
+/* apply background color globally*/
 body {
     background-color: lightblue;
 }
 
+/* set font of the title*/
 h1 {
     font-family: 'Oswald', sans-serif;
 }
 
-
+/* color and size of the subtitle*/
 h2 {
     color: navy;
     font-size: 4ch;
 }
 
+/* style the third hadding (dates)*/
 h3 {
     color: rgb(255, 99, 71);
     font-size: 12pt;
@@ -19,6 +22,7 @@ h3 {
     padding: 0px 10px 10px 0px
 }
 
+/* style the text*/
 p {
     color: hsl(8, 13%, 34%);
     font-size: 4mm;
@@ -28,26 +32,31 @@ p {
 p.ex1 {display: block;}
 p.ex2 {display: inline;}
 
+/* set the margin of elements in the header*/
 header {
     margin-left: 20px;
     
 }
 
+/* set the margin of elements in the footer*/
 footer {
     margin-left: 20px;
     
 }
 
+/* set the margin and font size of elements in each section*/
 section {
     margin: auto auto auto 20px;
     font-size: 2ex;
 }
 
+/* style the details element*/
 details {
     color: red;
     font-size: 1.2em;
 }
 
+/* style the text area*/
 textarea {
     height: 110px;
     width: 900px;
