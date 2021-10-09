@@ -6,6 +6,7 @@ h1 {
     font-family: 'Oswald', sans-serif;
 }
 
+
 h2 {
     color: navy;
     font-size: 4ch;
@@ -15,11 +16,13 @@ h3 {
     color: rgb(255, 99, 71);
     font-size: 12pt;
     text-decoration: underline;
+    padding: 0px 10px 10px 0px
 }
 
 p {
     color: hsl(8, 13%, 34%);
     font-size: 4mm;
+    padding-top: 20px;
 }
 
 p.ex1 {display: block;}
@@ -36,7 +39,7 @@ footer {
 }
 
 section {
-    margin-left: 20px;
+    margin: auto auto auto 20px;
     font-size: 2ex;
 }
 
